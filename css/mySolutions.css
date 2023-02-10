@@ -55,3 +55,14 @@
   filter: invert(100%) drop-shadow(40px 15px 10px grey);
   transform: scale(1.4);
 }
+.ex-10-icon {
+  animation: giro 2s linear infinite;
+}
+@keyframes giro {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
