@@ -101,3 +101,53 @@
     right: 20%;
   }
 }
+.ex-13-button:hover .ex-13-top-white {
+  animation: spostaBiancoTopGiro 3s linear infinite;
+}
+@keyframes spostaBiancoTopGiro {
+  29.33% {
+    top: -10px;
+    left: 100%;
+  }
+  42.3% {
+    top: calc(100% - 10px);
+    left: 100%;
+  }
+  79.33% {
+    top: calc(100% - 10px);
+    left: -30px;
+  }
+  92.29% {
+    top: -10px;
+    left: -30px;
+  }
+  100% {
+    top: -10px;
+    left: 10%;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: spostaBiancoBottomGiro 3s linear infinite;
+}
+@keyframes spostaBiancoBottomGiro {
+  25.63% {
+    bottom: -10px;
+    right: 100%;
+  }
+  38.6% {
+    bottom: calc(100% - 10px);
+    right: 100%;
+  }
+  74.63% {
+    bottom: calc(100% - 10px);
+    right: -30px;
+  }
+  88.59% {
+    bottom: -10px;
+    right: -30px;
+  }
+  100% {
+    bottom: -10px;
+    right: 20%;
+  }
+}
