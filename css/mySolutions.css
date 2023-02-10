@@ -45,5 +45,13 @@
 }
 .ex-8-img:hover {
   border-radius: 30px;
-  filter: saturate(2.5);
+  filter: saturate(2.5) blur(1px);
+}
+.ex-9-img {
+  transition: all 1500ms;
+}
+.ex-9-img:hover {
+  border-radius: 30px;
+  filter: invert(100%) drop-shadow(40px 15px 10px grey);
+  transform: scale(1.4);
 }
